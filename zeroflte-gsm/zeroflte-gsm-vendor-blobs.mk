@@ -17,22 +17,67 @@
 
 ## zeroflte-gsm/common-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
+
+## zeroflte-gsm/common-proprietary-blobs.txt
+PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libcontrolcsc.so:system/lib64/libcontrolcsc.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/lib_DNSe_NRSS_ver230.so:system/lib/lib_DNSe_NRSS_ver230.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/lib_SamsungRec_V04012_WNR002.so:system/lib/lib_SamsungRec_V04012_WNR002.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libsamsungSoundbooster_pgb.so:system/lib/libsamsungSoundbooster_pgb.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/bcm4358A0_V0009.0033.hcd:system/vendor/firmware/bcm4358A0_V0009.0033.hcd \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/bcm4358A1_V0041.0075.hcd:system/vendor/firmware/bcm4358A1_V0041.0075.hcd \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/camera.universal7420.so:system/lib/hw/camera.universal7420.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/camera.universal7420.so:system/lib64/hw/camera.universal7420.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
-	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+	vendor/samsung/zeroflte-gsm/proprietary/bin/gps.cer:system/bin/gps.cer \
+	vendor/samsung/zeroflte-gsm/proprietary/bin/gpsd:system/bin/gpsd \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libfimg.so:system/lib/libfimg.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/lpm:system/bin/lpm \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
@@ -40,6 +85,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libion.so:system/lib/libion.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libion.so:system/lib64/libion.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libion_exynos.so:system/lib64/libion_exynos.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin:system/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin \
