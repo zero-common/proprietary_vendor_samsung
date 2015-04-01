@@ -17,9 +17,6 @@
 
 ## zeroflte-gsm/common-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
-
-## zeroflte-gsm/common-proprietary-blobs.txt
-PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/bcm4358A0_V0009.0033.hcd:system/vendor/firmware/bcm4358A0_V0009.0033.hcd \
@@ -117,5 +114,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/nvram_net.txt_murata_b85_a1:system/etc/wifi/nvram_net.txt_murata_b85_a1 \
 	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
 	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/nvram_net.txt_wisol_a1:system/etc/wifi/nvram_net.txt_wisol_a1 \
-	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/nvram_net.txt_wisol_b85_a1:system/etc/wifi/nvram_net.txt_wisol_b85_a1
+	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/nvram_net.txt_wisol_b85_a1:system/etc/wifi/nvram_net.txt_wisol_b85_a1 \
 	vendor/samsung/zeroflte-gsm/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf
