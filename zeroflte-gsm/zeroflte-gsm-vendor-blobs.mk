@@ -17,9 +17,6 @@
 
 ## zeroflte-gsm/common-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
-
-## zeroflte-gsm/common-proprietary-blobs.txt
-PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
@@ -55,16 +52,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
-	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/gps.cer:system/bin/gps.cer \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/gpsd:system/bin/gpsd \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
