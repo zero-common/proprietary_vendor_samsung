@@ -70,6 +70,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libfimg.so:system/lib/libfimg.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/lpm:system/bin/lpm \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
