@@ -72,6 +72,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libhdmimodule.so:system/lib64/libhdmimodule.so \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/lpm:system/bin/lpm \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
