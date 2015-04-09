@@ -80,6 +80,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libhdmimodule.so:system/lib64/libhdmimodule.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplaymodule.so \
+	vendor/samsung/zeroflte-gsm/proprietary/lib64/libvirtualdisplaymodule.so:system/lib64/libvirtualdisplaymodule.so \
 	vendor/samsung/zeroflte-gsm/proprietary/bin/lpm:system/bin/lpm \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
