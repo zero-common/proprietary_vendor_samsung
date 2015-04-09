@@ -51,8 +51,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-gsm/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-	vendor/samsung/zeroflte-gsm/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
 	vendor/samsung/zeroflte-gsm/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
