@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libion.so:system/lib64/libion.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libion_exynos.so:system/lib64/libion_exynos.so \
+	vendor/samsung/zeroflte-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
 	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin:system/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin \
 	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin \
 	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin \
