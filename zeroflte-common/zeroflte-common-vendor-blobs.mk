@@ -66,6 +66,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libcec.so:system/lib/libcec.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libcec.so:system/lib64/libcec.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libdisplaymodule.so:system/lib64/libdisplaymodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libfimg.so:system/lib/libfimg.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
