@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
