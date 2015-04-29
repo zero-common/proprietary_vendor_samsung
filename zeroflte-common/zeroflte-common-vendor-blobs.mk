@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
 	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
 	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/bin/cs:system/bin/cs \
 	vendor/samsung/zeroflte-common/proprietary/lib/hw/power.exynos5.so:system/lib/hw/power.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/power.exynos5.so:system/lib64/hw/power.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
