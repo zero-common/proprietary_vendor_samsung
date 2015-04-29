@@ -100,35 +100,35 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libion_exynos.so:system/lib64/libion_exynos.so \
 	vendor/samsung/zeroflte-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin:system/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/firmware/mcRegistry/07060000000000000000000000000000.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000004.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000004.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000005.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000005.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000012.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000012.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000013.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000013.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000014.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000014.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000015.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000015.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000016.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000016.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000018.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000018.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000019.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000019.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/vendor/firmware/mcRegistry/ffffffff00000000000000000000001f.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000021.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000021.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000014.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000017.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/vendor/firmware/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/vendor/firmware/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:system/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000015.tlbin:system/app/mcRegistry/ffffffff000000000000000000000015.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffff000000000000000000000021.tlbin:system/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
+	vendor/samsung/zeroflte-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
 	vendor/samsung/zeroflte-common/proprietary/lib/hw/power.exynos5.so:system/lib/hw/power.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/power.exynos5.so:system/lib64/hw/power.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
