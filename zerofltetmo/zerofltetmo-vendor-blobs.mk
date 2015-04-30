@@ -20,4 +20,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zerofltetmo/proprietary/vendor/firmware/bcm4358A3_V0031.0048.hcd:system/vendor/firmware/bcm4358A3_V0031.0048.hcd \
 	vendor/samsung/zerofltetmo/proprietary/app/mcRegistry/08880000000000000000000000000000.tlbin:system/app/mcRegistry/08880000000000000000000000000000.tlbin \
 	vendor/samsung/zerofltetmo/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/zerofltetmo/proprietary/lib64/libril.so:system/lib64/libril.so
+	vendor/samsung/zerofltetmo/proprietary/lib64/libril.so:system/lib64/libril.so \
+	vendor/samsung/zerofltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/zerofltetmo/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so

@@ -17,6 +17,8 @@
 
 ## zerofltemtr/device-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
+	vendor/samsung/zerofltemtr/proprietary/vendor/firmware/bcm4358A3_V0031.0048.hcd:system/vendor/firmware/bcm4358A3_V0031.0048.hcd \
 	vendor/samsung/zerofltemtr/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/zerofltemtr/proprietary/lib64/libril.so:system/lib64/libril.so \
-	vendor/samsung/zerofltemtr/proprietary/vendor/firmware/bcm4358A3_V0031.0048.hcd:system/vendor/firmware/bcm4358A3_V0031.0048.hcd
+	vendor/samsung/zerofltemtr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/zerofltemtr/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so

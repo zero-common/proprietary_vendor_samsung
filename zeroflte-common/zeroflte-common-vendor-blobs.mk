@@ -141,8 +141,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/zeroflte-common/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
