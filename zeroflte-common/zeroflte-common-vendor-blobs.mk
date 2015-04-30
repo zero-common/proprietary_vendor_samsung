@@ -17,6 +17,9 @@
 
 ## zeroflte-common/common-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
+
+## zeroflte-common/common-proprietary-blobs.txt
+PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zeroflte-common/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
 	vendor/samsung/zeroflte-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
@@ -64,31 +67,31 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
-	vendor/samsung/zeroflte-common/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libcec.so:system/lib/libcec.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libcec.so:system/lib64/libcec.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libdisplaymodule.so:system/lib64/libdisplaymodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libfimg.so:system/lib/libfimg.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
-	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
-	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhdmimodule.so:system/lib64/libhdmimodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplaymodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libvirtualdisplaymodule.so:system/lib64/libvirtualdisplaymodule.so \
 	vendor/samsung/zeroflte-common/proprietary/bin/lpm:system/bin/lpm \
 	vendor/samsung/zeroflte-common/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
@@ -136,8 +139,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/power.exynos5.so:system/lib64/hw/power.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-	vendor/samsung/zeroflte-common/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/zeroflte-common/proprietary/lib64/libril.so:system/lib64/libril.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
