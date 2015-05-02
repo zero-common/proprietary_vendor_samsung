@@ -89,6 +89,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libmpp.so:system/lib/libmpp.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libmpp.so:system/lib64/libmpp.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so \
