@@ -52,6 +52,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
 	vendor/samsung/zeroflte-common/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
 	vendor/samsung/zeroflte-common/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
