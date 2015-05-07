@@ -158,6 +158,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroflte-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/zeroflte-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/zeroflte-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/zeroflte-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+	vendor/samsung/zeroflte-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
 	vendor/samsung/zeroflte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/zeroflte-common/proprietary/etc/wifi/bcmdhd_apsta.bin_a1:system/etc/wifi/bcmdhd_apsta.bin_a1 \
 	vendor/samsung/zeroflte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
