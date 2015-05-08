@@ -17,11 +17,9 @@
 
 ## zero-common/common-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
-
-## zero-common/common-proprietary-blobs.txt
-PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
+	vendor/samsung/zero-common/proprietary/lib/hw/audio.primary.universal7420.so:system/lib/hw/audio.primary.universal7420.so \
 	vendor/samsung/zero-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	vendor/samsung/zero-common/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
 	vendor/samsung/zero-common/proprietary/lib64/libcontrolcsc.so:system/lib64/libcontrolcsc.so \
