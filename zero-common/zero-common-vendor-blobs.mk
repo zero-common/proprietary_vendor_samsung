@@ -141,6 +141,32 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
 	vendor/samsung/zero-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
 	vendor/samsung/zero-common/proprietary/bin/cs:system/bin/cs \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.AAC.Decoder.so:system/lib/omx/libOMX.Exynos.AAC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.MP3.Decoder.so:system/lib/omx/libOMX.Exynos.MP3.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.FLAC.Decoder.so:system/lib/omx/libOMX.Exynos.FLAC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.AAC.Decoder.so:system/lib64/omx/libOMX.Exynos.AAC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MP3.Decoder.so:system/lib64/omx/libOMX.Exynos.MP3.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:system/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:system/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.FLAC.Decoder.so:system/lib64/omx/libOMX.Exynos.FLAC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/power.exynos5.so:system/lib/hw/power.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/power.exynos5.so:system/lib64/hw/power.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
