@@ -46,10 +46,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
 	vendor/samsung/zero-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
-	vendor/samsung/zero-common/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
-	vendor/samsung/zero-common/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
-	vendor/samsung/zero-common/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-	vendor/samsung/zero-common/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
 	vendor/samsung/zero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
 	vendor/samsung/zero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
 	vendor/samsung/zero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
@@ -67,49 +63,15 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
 	vendor/samsung/zero-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
 	vendor/samsung/zero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
-	vendor/samsung/zero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
-	vendor/samsung/zero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
-	vendor/samsung/zero-common/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-	vendor/samsung/zero-common/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-	vendor/samsung/zero-common/proprietary/lib/libcec.so:system/lib/libcec.so \
-	vendor/samsung/zero-common/proprietary/lib64/libcec.so:system/lib64/libcec.so \
-	vendor/samsung/zero-common/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
-	vendor/samsung/zero-common/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
-	vendor/samsung/zero-common/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
-	vendor/samsung/zero-common/proprietary/lib64/libdisplaymodule.so:system/lib64/libdisplaymodule.so \
-	vendor/samsung/zero-common/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
-	vendor/samsung/zero-common/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
-	vendor/samsung/zero-common/proprietary/lib/libfimg.so:system/lib/libfimg.so \
-	vendor/samsung/zero-common/proprietary/lib64/libfimg.so:system/lib64/libfimg.so \
-	vendor/samsung/zero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-	vendor/samsung/zero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
-	vendor/samsung/zero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-	vendor/samsung/zero-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-	vendor/samsung/zero-common/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
-	vendor/samsung/zero-common/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
-	vendor/samsung/zero-common/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
-	vendor/samsung/zero-common/proprietary/lib64/libhdmimodule.so:system/lib64/libhdmimodule.so \
-	vendor/samsung/zero-common/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
-	vendor/samsung/zero-common/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
-	vendor/samsung/zero-common/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
-	vendor/samsung/zero-common/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
-	vendor/samsung/zero-common/proprietary/lib/libmpp.so:system/lib/libmpp.so \
-	vendor/samsung/zero-common/proprietary/lib64/libmpp.so:system/lib64/libmpp.so \
-	vendor/samsung/zero-common/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
-	vendor/samsung/zero-common/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
-	vendor/samsung/zero-common/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so \
-	vendor/samsung/zero-common/proprietary/lib64/libvirtualdisplaymodule.so:system/lib64/libvirtualdisplaymodule.so \
 	vendor/samsung/zero-common/proprietary/bin/lpm:system/bin/lpm \
+        vendor/samsung/zero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+        vendor/samsung/zero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
 	vendor/samsung/zero-common/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin \
-	vendor/samsung/zero-common/proprietary/lib/libion.so:system/lib/libion.so \
-	vendor/samsung/zero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
-	vendor/samsung/zero-common/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
-	vendor/samsung/zero-common/proprietary/lib64/libion_exynos.so:system/lib64/libion_exynos.so \
 	vendor/samsung/zero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
 	vendor/samsung/zero-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
 	vendor/samsung/zero-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
@@ -154,6 +116,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.AAC.Decoder.so:system/lib64/omx/libOMX.Exynos.AAC.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MP3.Decoder.so:system/lib64/omx/libOMX.Exynos.MP3.Decoder.so \
@@ -163,10 +129,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.FLAC.Decoder.so:system/lib64/omx/libOMX.Exynos.FLAC.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
-	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-	vendor/samsung/zero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/power.exynos5.so:system/lib/hw/power.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/power.exynos5.so:system/lib64/hw/power.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
@@ -182,8 +144,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/zero-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/zero-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-	vendor/samsung/zero-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-	vendor/samsung/zero-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
 	vendor/samsung/zero-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/zero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_a1:system/etc/wifi/bcmdhd_apsta.bin_a1 \
 	vendor/samsung/zero-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
