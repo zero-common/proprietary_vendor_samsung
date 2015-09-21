@@ -40,6 +40,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/camera.universal7420.so:system/lib/hw/camera.universal7420.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/camera.universal7420.so:system/lib64/hw/camera.universal7420.so \
+	vendor/samsung/zero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+	vendor/samsung/zero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -60,8 +62,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
 	vendor/samsung/zero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
 	vendor/samsung/zero-common/proprietary/bin/lpm:system/bin/lpm \
-        vendor/samsung/zero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-        vendor/samsung/zero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
 	vendor/samsung/zero-common/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/zero-common/proprietary/lib64/libQmageDecoder.so:system/lib64/libQmageDecoder.so \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
