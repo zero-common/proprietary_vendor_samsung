@@ -1,5 +1,4 @@
 # Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2015 The Android Open Kang Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -52,6 +51,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
+	vendor/samsung/zero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+	vendor/samsung/zero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
 	vendor/samsung/zero-common/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
 	vendor/samsung/zero-common/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
 	vendor/samsung/zero-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
