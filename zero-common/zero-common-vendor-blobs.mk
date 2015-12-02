@@ -39,8 +39,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/camera.universal7420.so:system/lib/hw/camera.universal7420.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/camera.universal7420.so:system/lib64/hw/camera.universal7420.so \
-	vendor/samsung/zero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-	vendor/samsung/zero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
