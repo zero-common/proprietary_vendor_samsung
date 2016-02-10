@@ -19,7 +19,5 @@
 ## zeroltexx/device-proprietary-blobs.txt
 PRODUCT_COPY_FILES += \
 	vendor/samsung/zeroltexx/proprietary/vendor/firmware/bcm4358A3_V0031.0048.hcd:system/vendor/firmware/bcm4358A3_V0031.0048.hcd \
-	vendor/samsung/zeroltexx/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/zeroltexx/proprietary/lib64/libril.so:system/lib64/libril.so \
 	vendor/samsung/zeroltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/zeroltexx/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so

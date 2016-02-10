@@ -68,8 +68,8 @@ tempthresh=120
 temps_hysteresis=15
 tempoffset=255
 rawtempsense=0x1ff
-pa2ga0=-149,6002,-691
-pa2ga1=-142,5809,-670
+pa2ga0=-149,5234,-635
+pa2ga1=-142,5297,-634
 pa5ga0=-169,6101,-727,-165,5995,-712,-168,5929,-708,-156,5975,-702
 pa5ga1=-161,6229,-729,-164,5909,-703,-157,6231,-729,-150,6352,-740
 maxp2ga0=74
@@ -142,7 +142,7 @@ cckdigfilttype=4
 ## cck_onecore_tx - added on 9/2
 cck_onecore_tx=1
 ## Enabling OOB signal - needed for final board 8/7
-host_wake_opt=0
+#host_wake_opt=0
 ## muxenab to enable OOB signal For Sensor Hub UART - needed for final board 8/7
 muxenab=0x4
 # ###########  BTC Dynctl profile params 2-antenna scenario - updated on 8/6  ############
