@@ -149,6 +149,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/consumerir.exynos5.so:system/lib64/hw/consumerir.exynos5.so \
+	vendor/samsung/zero-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+	vendor/samsung/zero-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
+	vendor/samsung/zero-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
+	vendor/samsung/zero-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
+	vendor/samsung/zero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
+	vendor/samsung/zero-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
+	vendor/samsung/zero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
+	vendor/samsung/zero-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
+	vendor/samsung/zero-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
+	vendor/samsung/zero-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+	vendor/samsung/zero-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
