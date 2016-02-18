@@ -220,8 +220,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/bin/cbd:system/bin/cbd \
 	vendor/samsung/zero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/zero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-	vendor/samsung/zero-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/zero-common/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
 	vendor/samsung/zero-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/zero-common/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/sensors.universal7420.so:system/lib/hw/sensors.universal7420.so \
